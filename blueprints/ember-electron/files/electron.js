@@ -4,7 +4,7 @@
 const electron         = require('electron');
 const app              = electron.app;
 const BrowserWindow    = electron.BrowserWindow;
-const emberAppLocation = `file://${__dirname}/dist/index.html`;
+const emberAppLocation = `file://./dist/index.html`;
 
 let mainWindow = null;
 
